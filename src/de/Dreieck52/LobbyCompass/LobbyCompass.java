@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class LobbyCompass extends JavaPlugin {
 
-	public static String prefix = "§f[§eCompass§f] ";
+	public static String prefix = "Â§f[Â§eCompassÂ§f] ";
 	
 	public static String use_Permission = "lobbycompass.use";
 	public static String get_Permission = "lobbycompass.get";
@@ -21,7 +21,7 @@ public class LobbyCompass extends JavaPlugin {
 		
 		getConfig().options().header(
 				"#############################################" + "\n" +
-				"#      - LobbyCompass by Dreieck52 -        #" + "\n" +
+				"#      - LobbyCompass by Incrility -        #" + "\n" +
 				"#############################################" + "\n" +
 				"# Option 'executedByPlayer' means:" + "\n" +
 				"#    > true = Command is executed as the player typed it" + "\n" +
